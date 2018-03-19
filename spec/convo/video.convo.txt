@@ -1,0 +1,16 @@
+video
+
+#me
+sample:video
+
+#bot
+{
+  "message": {
+    "attachment": {
+      "type": "video",
+      "payload": {
+        "url": "http://127.0.0.1/messenger-samples/allofus480.mov"
+      }
+    }
+  }
+}

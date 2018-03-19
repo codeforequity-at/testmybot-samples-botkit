@@ -1,0 +1,27 @@
+{
+  "name": "testmybot-samples-botkit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "botkit": "^0.6.12",
+    "botkit-messenger-samples": "^1.1.0",
+    "mocha": "^5.0.4",
+    "testmybot": "^1.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node runmocha.js",
+    "emulator": "node emulator.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeforequity-at/testmybot-samples-botkit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codeforequity-at/testmybot-samples-botkit/issues"
+  },
+  "homepage": "https://github.com/codeforequity-at/testmybot-samples-botkit#readme"
+}

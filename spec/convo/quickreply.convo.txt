@@ -1,0 +1,22 @@
+quickreply
+
+#me
+sample:quick reply
+
+#bot
+{
+  "message": {
+    "text": "What's your favorite movie genre?",
+    "quick_replies": [
+      {
+        "payload":"DEVELOPER_DEFINED_PAYLOAD_FOR_PICKING_ACTION"
+      },
+      {
+        "payload":"DEVELOPER_DEFINED_PAYLOAD_FOR_PICKING_COMEDY"
+      },
+      {
+        "payload":"DEVELOPER_DEFINED_PAYLOAD_FOR_PICKING_DRAMA"
+      }
+    ]
+  }
+}
